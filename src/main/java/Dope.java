@@ -15,7 +15,7 @@ public class Dope {
 
     public static void main(String[] args) throws LoginException, SQLException {
 
-        jda = JDABuilder.createDefault("NzA5NDM2NzY1NjkzNTQyNDUw.Xrl4eQ.ajoLci2WdFmVhwgMwE624y1X2Gg").setEnabledIntents(GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_VOICE_STATES
+        jda = JDABuilder.createDefault("NzA5NDM2NzY1NjkzNTQyNDUw.Xrl4eQ.P-ddjnmzPAo2I99eoBd9IgeHckA").setEnabledIntents(GatewayIntent.GUILD_MESSAGES, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_VOICE_STATES
                 , GatewayIntent.GUILD_EMOJIS, GatewayIntent.DIRECT_MESSAGE_REACTIONS, GatewayIntent.GUILD_MESSAGE_REACTIONS, GatewayIntent.DIRECT_MESSAGES).build();
         jda.getPresence().setStatus(OnlineStatus.ONLINE);
         jda.getPresence().setActivity(Activity.playing("@DopeBot help"));
