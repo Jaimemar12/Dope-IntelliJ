@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+
+    maven { url 'https://jitpack.io' }
+    maven {
+        url "http://giphy.bintray.com/giphy-sdk"
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile group: 'net.dv8tion', name: 'JDA', version: '4.2.0_222'
+    compile group: 'com.google.apis', name: 'google-api-services-youtube', version: 'v3-rev222-1.25.0'
+    compile group: 'com.sedmelluq', name: 'lavaplayer', version: '1.3.63'
+    implementation group: 'me.duncte123', name: 'botCommons', version: '2.0.122'
+    implementation group: 'org.codehaus.groovy', name: 'groovy-jsr223', version: '3.0.7'
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.32.3.2'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,73 @@
+Dope.java
+ Dope
+PlayerManager.java
+ AudioPlayerSendHandler
+ GuildMusicManager
+ PlayerManager
+ PlayerManager$1
+ TrackScheduler
+Formats.java
+ Formats
+ MessagesFormat
+GuildEvent.java
+ GuildEvent
+ GuildMemberJoin
+ GuildMemberLeave
+BotActions.java
+ About
+ AddRole
+ Alert
+ Avatar
+ Ball
+ Ban
+ BotActions
+ Calc
+ Cat
+ Clear
+ Coin
+ Dog
+ EasterEgg
+ Gif
+ Help
+ Invitation
+ Join
+ Joke
+ Kick
+ Leave
+ Meme
+ Mute
+ Nick
+ PM
+ Pause
+ Pin
+ Ping
+ Play
+ Playing
+ Purge
+ Queue
+ Quite
+ RemoveNick
+ RemoveRole
+ Repeat
+ Roll
+ Say
+ Search
+ ServerInfo
+ Shutdown
+ Skip
+ SoftBan
+ SoftBan$1
+ Stop
+ UD
+ Unban
+ Unmute
+ Unpin
+ Unquite
+ Users
+ Volume
+ Warn
+ Warn$1
+SQLiteDataSource.java
+ SQLiteDataSource
+MessageEvents.java
+ MessageEvents
