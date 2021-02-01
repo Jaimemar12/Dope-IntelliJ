@@ -16,7 +16,7 @@ public class SQLiteDataSource {
         Connection con = null;
         try {
             Class.forName("org.sqlite.JDBC");
-            con = DriverManager.getConnection("jdbc:sqlite:/Users/jaimemartinez/IdeaProjects/Projects/Dope/DopeBot.db");
+            con = DriverManager.getConnection("jdbc:sqlite:/Users/jaimemartinez/IdeaProjects/Projects/Dope/src/main/resources/DopeBot.db");
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
